@@ -1,5 +1,6 @@
 package org.mcpy;
 
+import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -24,6 +25,9 @@ public class MCPy extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        int pluginId = 18112;
+        Metrics metrics = new Metrics(this, pluginId);
+
         getLogger().info("MCPy plugin enabled.");
         File scriptsFolder = new File(SCRIPTS_FOLDER_PATH);
         if (!scriptsFolder.exists()) {
