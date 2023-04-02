@@ -1,7 +1,7 @@
 # MCPy
 # Allows for .py scripts on minecraft servers!
 
-This is my first java coding project ever and will be updated whenever possible.
+Allows for execution of .py scripts into the mc environment, just like skript!
 
 Currently only 1.19.4 but will soon release 1.19.3.
 
