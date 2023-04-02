@@ -1,5 +1,5 @@
 name: MCPy
-version: 1.0
+version: 1.1
 main: org.mcpy.MCPy
 description: A plugin for executing Python scripts in Minecraft.
 author: Your Name
